@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962409511D1DA52000FD05DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962409501D1DA52000FD05DB /* AppDelegate.swift */; };
+		962409531D1DA52000FD05DB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962409521D1DA52000FD05DB /* GameScene.swift */; };
+		962409551D1DA52000FD05DB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 962409541D1DA52000FD05DB /* GameScene.sks */; };
+		962409571D1DA52000FD05DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962409561D1DA52000FD05DB /* Assets.xcassets */; };
+		9624095A1D1DA52000FD05DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962409581D1DA52000FD05DB /* MainMenu.xib */; };
+		962409651D1DA52000FD05DB /* Solitaire_KlondikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962409641D1DA52000FD05DB /* Solitaire_KlondikeTests.swift */; };
+		962409701D1DA52000FD05DB /* Solitaire_KlondikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624096F1D1DA52000FD05DB /* Solitaire_KlondikeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		962409611D1DA52000FD05DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962409451D1DA52000FD05DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9624094C1D1DA52000FD05DB;
+			remoteInfo = "Solitaire-Klondike";
+		};
+		9624096C1D1DA52000FD05DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962409451D1DA52000FD05DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9624094C1D1DA52000FD05DB;
+			remoteInfo = "Solitaire-Klondike";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9624094D1D1DA52000FD05DB /* Solitaire-Klondike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solitaire-Klondike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		962409501D1DA52000FD05DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		962409521D1DA52000FD05DB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		962409541D1DA52000FD05DB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		962409561D1DA52000FD05DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962409591D1DA52000FD05DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9624095B1D1DA52000FD05DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962409601D1DA52000FD05DB /* Solitaire-KlondikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solitaire-KlondikeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		962409641D1DA52000FD05DB /* Solitaire_KlondikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solitaire_KlondikeTests.swift; sourceTree = "<group>"; };
+		962409661D1DA52000FD05DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9624096B1D1DA52000FD05DB /* Solitaire-KlondikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solitaire-KlondikeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9624096F1D1DA52000FD05DB /* Solitaire_KlondikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solitaire_KlondikeUITests.swift; sourceTree = "<group>"; };
+		962409711D1DA52000FD05DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9624094A1D1DA52000FD05DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9624095D1D1DA52000FD05DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962409681D1DA52000FD05DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962409441D1DA52000FD05DB = {
+			isa = PBXGroup;
+			children = (
+				9624094F1D1DA52000FD05DB /* Solitaire-Klondike */,
+				962409631D1DA52000FD05DB /* Solitaire-KlondikeTests */,
+				9624096E1D1DA52000FD05DB /* Solitaire-KlondikeUITests */,
+				9624094E1D1DA52000FD05DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9624094E1D1DA52000FD05DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9624094D1D1DA52000FD05DB /* Solitaire-Klondike.app */,
+				962409601D1DA52000FD05DB /* Solitaire-KlondikeTests.xctest */,
+				9624096B1D1DA52000FD05DB /* Solitaire-KlondikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9624094F1D1DA52000FD05DB /* Solitaire-Klondike */ = {
+			isa = PBXGroup;
+			children = (
+				962409501D1DA52000FD05DB /* AppDelegate.swift */,
+				962409521D1DA52000FD05DB /* GameScene.swift */,
+				962409541D1DA52000FD05DB /* GameScene.sks */,
+				962409561D1DA52000FD05DB /* Assets.xcassets */,
+				962409581D1DA52000FD05DB /* MainMenu.xib */,
+				9624095B1D1DA52000FD05DB /* Info.plist */,
+			);
+			path = "Solitaire-Klondike";
+			sourceTree = "<group>";
+		};
+		962409631D1DA52000FD05DB /* Solitaire-KlondikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				962409641D1DA52000FD05DB /* Solitaire_KlondikeTests.swift */,
+				962409661D1DA52000FD05DB /* Info.plist */,
+			);
+			path = "Solitaire-KlondikeTests";
+			sourceTree = "<group>";
+		};
+		9624096E1D1DA52000FD05DB /* Solitaire-KlondikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9624096F1D1DA52000FD05DB /* Solitaire_KlondikeUITests.swift */,
+				962409711D1DA52000FD05DB /* Info.plist */,
+			);
+			path = "Solitaire-KlondikeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9624094C1D1DA52000FD05DB /* Solitaire-Klondike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962409741D1DA52000FD05DB /* Build configuration list for PBXNativeTarget "Solitaire-Klondike" */;
+			buildPhases = (
+				962409491D1DA52000FD05DB /* Sources */,
+				9624094A1D1DA52000FD05DB /* Frameworks */,
+				9624094B1D1DA52000FD05DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solitaire-Klondike";
+			productName = "Solitaire-Klondike";
+			productReference = 9624094D1D1DA52000FD05DB /* Solitaire-Klondike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9624095F1D1DA52000FD05DB /* Solitaire-KlondikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962409771D1DA52000FD05DB /* Build configuration list for PBXNativeTarget "Solitaire-KlondikeTests" */;
+			buildPhases = (
+				9624095C1D1DA52000FD05DB /* Sources */,
+				9624095D1D1DA52000FD05DB /* Frameworks */,
+				9624095E1D1DA52000FD05DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962409621D1DA52000FD05DB /* PBXTargetDependency */,
+			);
+			name = "Solitaire-KlondikeTests";
+			productName = "Solitaire-KlondikeTests";
+			productReference = 962409601D1DA52000FD05DB /* Solitaire-KlondikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9624096A1D1DA52000FD05DB /* Solitaire-KlondikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9624097A1D1DA52000FD05DB /* Build configuration list for PBXNativeTarget "Solitaire-KlondikeUITests" */;
+			buildPhases = (
+				962409671D1DA52000FD05DB /* Sources */,
+				962409681D1DA52000FD05DB /* Frameworks */,
+				962409691D1DA52000FD05DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9624096D1D1DA52000FD05DB /* PBXTargetDependency */,
+			);
+			name = "Solitaire-KlondikeUITests";
+			productName = "Solitaire-KlondikeUITests";
+			productReference = 9624096B1D1DA52000FD05DB /* Solitaire-KlondikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962409451D1DA52000FD05DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aromatic Studios";
+				TargetAttributes = {
+					9624094C1D1DA52000FD05DB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9624095F1D1DA52000FD05DB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9624094C1D1DA52000FD05DB;
+					};
+					9624096A1D1DA52000FD05DB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9624094C1D1DA52000FD05DB;
+					};
+				};
+			};
+			buildConfigurationList = 962409481D1DA52000FD05DB /* Build configuration list for PBXProject "Solitaire-Klondike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962409441D1DA52000FD05DB;
+			productRefGroup = 9624094E1D1DA52000FD05DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9624094C1D1DA52000FD05DB /* Solitaire-Klondike */,
+				9624095F1D1DA52000FD05DB /* Solitaire-KlondikeTests */,
+				9624096A1D1DA52000FD05DB /* Solitaire-KlondikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9624094B1D1DA52000FD05DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962409571D1DA52000FD05DB /* Assets.xcassets in Resources */,
+				962409551D1DA52000FD05DB /* GameScene.sks in Resources */,
+				9624095A1D1DA52000FD05DB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9624095E1D1DA52000FD05DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962409691D1DA52000FD05DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962409491D1DA52000FD05DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962409531D1DA52000FD05DB /* GameScene.swift in Sources */,
+				962409511D1DA52000FD05DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9624095C1D1DA52000FD05DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962409651D1DA52000FD05DB /* Solitaire_KlondikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962409671D1DA52000FD05DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962409701D1DA52000FD05DB /* Solitaire_KlondikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		962409621D1DA52000FD05DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9624094C1D1DA52000FD05DB /* Solitaire-Klondike */;
+			targetProxy = 962409611D1DA52000FD05DB /* PBXContainerItemProxy */;
+		};
+		9624096D1D1DA52000FD05DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9624094C1D1DA52000FD05DB /* Solitaire-Klondike */;
+			targetProxy = 9624096C1D1DA52000FD05DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		962409581D1DA52000FD05DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962409591D1DA52000FD05DB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		962409721D1DA52000FD05DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		962409731D1DA52000FD05DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		962409751D1DA52000FD05DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solitaire-Klondike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidursatija.Solitaire-Klondike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962409761D1DA52000FD05DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solitaire-Klondike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidursatija.Solitaire-Klondike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		962409781D1DA52000FD05DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Solitaire-KlondikeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidursatija.Solitaire-KlondikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solitaire-Klondike.app/Contents/MacOS/Solitaire-Klondike";
+			};
+			name = Debug;
+		};
+		962409791D1DA52000FD05DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solitaire-KlondikeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidursatija.Solitaire-KlondikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solitaire-Klondike.app/Contents/MacOS/Solitaire-Klondike";
+			};
+			name = Release;
+		};
+		9624097B1D1DA52000FD05DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Solitaire-KlondikeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidursatija.Solitaire-KlondikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solitaire-Klondike";
+			};
+			name = Debug;
+		};
+		9624097C1D1DA52000FD05DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Solitaire-KlondikeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vidursatija.Solitaire-KlondikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solitaire-Klondike";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962409481D1DA52000FD05DB /* Build configuration list for PBXProject "Solitaire-Klondike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962409721D1DA52000FD05DB /* Debug */,
+				962409731D1DA52000FD05DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962409741D1DA52000FD05DB /* Build configuration list for PBXNativeTarget "Solitaire-Klondike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962409751D1DA52000FD05DB /* Debug */,
+				962409761D1DA52000FD05DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		962409771D1DA52000FD05DB /* Build configuration list for PBXNativeTarget "Solitaire-KlondikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962409781D1DA52000FD05DB /* Debug */,
+				962409791D1DA52000FD05DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9624097A1D1DA52000FD05DB /* Build configuration list for PBXNativeTarget "Solitaire-KlondikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9624097B1D1DA52000FD05DB /* Debug */,
+				9624097C1D1DA52000FD05DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962409451D1DA52000FD05DB /* Project object */;
+}
