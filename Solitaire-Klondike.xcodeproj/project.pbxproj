@@ -14,6 +14,9 @@
 		9624095A1D1DA52000FD05DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962409581D1DA52000FD05DB /* MainMenu.xib */; };
 		962409651D1DA52000FD05DB /* Solitaire_KlondikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962409641D1DA52000FD05DB /* Solitaire_KlondikeTests.swift */; };
 		962409701D1DA52000FD05DB /* Solitaire_KlondikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624096F1D1DA52000FD05DB /* Solitaire_KlondikeUITests.swift */; };
+		9624097E1D1E378800FD05DB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624097D1D1E378800FD05DB /* Card.swift */; };
+		962409801D1E400700FD05DB /* Cards in Resources */ = {isa = PBXBuildFile; fileRef = 9624097F1D1E400700FD05DB /* Cards */; };
+		962409821D1E5A4500FD05DB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962409811D1E5A4500FD05DB /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9624096B1D1DA52000FD05DB /* Solitaire-KlondikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solitaire-KlondikeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9624096F1D1DA52000FD05DB /* Solitaire_KlondikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solitaire_KlondikeUITests.swift; sourceTree = "<group>"; };
 		962409711D1DA52000FD05DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9624097D1D1E378800FD05DB /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9624097F1D1E400700FD05DB /* Cards */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cards; sourceTree = "<group>"; };
+		962409811D1E5A4500FD05DB /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				962409501D1DA52000FD05DB /* AppDelegate.swift */,
 				962409521D1DA52000FD05DB /* GameScene.swift */,
+				962409811D1E5A4500FD05DB /* Stack.swift */,
+				9624097D1D1E378800FD05DB /* Card.swift */,
 				962409541D1DA52000FD05DB /* GameScene.sks */,
 				962409561D1DA52000FD05DB /* Assets.xcassets */,
 				962409581D1DA52000FD05DB /* MainMenu.xib */,
 				9624095B1D1DA52000FD05DB /* Info.plist */,
+				9624097F1D1E400700FD05DB /* Cards */,
 			);
 			path = "Solitaire-Klondike";
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				962409571D1DA52000FD05DB /* Assets.xcassets in Resources */,
 				962409551D1DA52000FD05DB /* GameScene.sks in Resources */,
+				962409801D1E400700FD05DB /* Cards in Resources */,
 				9624095A1D1DA52000FD05DB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962409821D1E5A4500FD05DB /* Stack.swift in Sources */,
 				962409531D1DA52000FD05DB /* GameScene.swift in Sources */,
+				9624097E1D1E378800FD05DB /* Card.swift in Sources */,
 				962409511D1DA52000FD05DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
